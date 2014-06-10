@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <text no="1">
+        <subject>ここに記事のタイトルを記述</subject>
+        <date>2014/04/04</date>
+        <body><![CDATA[
+                <p>ここに本文を記述します。</p>
+                omitposition
+                <p>ここは省略されて、記事別ページに遷移したら表示されます。</p>
+              ]]>
+        </body>
+    </text>
+    <text no="2">
+        <subject>ここに記事のタイトルを記述</subject>
+        <date>2014/04/06</date>
+        <body><![CDATA[
+                <p>ここに本文を記述します。</p>
+                omitposition
+                <p>ここは省略されて、記事別ページに遷移したら表示されます。</p>
+              ]]>
+        </body>
+    </text>
+    <text no="3">
+        <subject>ここに記事のタイトルを記述</subject>
+        <date>2014/04/08</date>
+        <body><![CDATA[
+                <p>ここに本文を記述します。</p>
+                omitposition
+                <p>ここは省略されて、記事別ページに遷移したら表示されます。</p>
+              ]]>
+        </body>
+    </text>
+    <text no="4">
+        <subject>ここに記事のタイトルを記述</subject>
+        <date>2014/04/10</date>
+        <body><![CDATA[
+                <p>ここに本文を記述します。</p>
+                omitposition
+                <p>ここは省略されて、記事別ページに遷移したら表示されます。</p>
+              ]]>
+        </body>
+    </text>
+    <text no="5">
+        <subject>ここに記事のタイトルを記述</subject>
+        <date>2014/04/12</date>
+        <body><![CDATA[
+                <p>ここに本文を記述します。</p>
+                omitposition
+                <p>ここは省略されて、記事別ページに遷移したら表示されます。</p>
+              ]]>
+        </body>
+    </text>
+    <text no="6">
+        <subject>ここに記事のタイトルを記述</subject>
+        <date>2014/04/14</date>
+        <body><![CDATA[
+                <p>ここに本文を記述します。</p>
+                omitposition
+                <p>ここは省略されて、記事別ページに遷移したら表示されます。</p>
+              ]]>
+        </body>
+    </text>
+    <text no="7">
+        <subject>ここに記事のタイトルを記述</subject>
+        <date>2014/04/16</date>
+        <body><![CDATA[
+                <p>ここに本文を記述します。</p>
+                omitposition
+                <p>ここは省略されて、記事別ページに遷移したら表示されます。</p>
+              ]]>
+        </body>
+    </text>
+    <text no="8">
+        <subject>ここに記事のタイトルを記述</subject>
+        <date>2014/04/18</date>
+        <body><![CDATA[
+                <p>ここに本文を記述します。</p>
+                omitposition
+                <p>ここは省略されて、記事別ページに遷移したら表示されます。</p>
+              ]]>
+        </body>
+    </text>
+    <text no="9">
+        <subject>ここに記事のタイトルを記述</subject>
+        <date>2014/04/20</date>
+        <body><![CDATA[
+                <p>ここに本文を記述します。</p>
+                omitposition
+                <p>ここは省略されて、記事別ページに遷移したら表示されます。</p>
+              ]]>
+        </body>
+    </text>
+</root>
+
