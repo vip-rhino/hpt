@@ -192,6 +192,44 @@ function getText(){
 /**
  * link
  */
+function getGalleryList(){
+    var textData = [];
+    $.ajax({
+        url:"dat/basic/gallery.xml",
+        type:"GET",
+        dataType:"xml",
+        timeout:2000,
+        error:xmlerr,
+        success:xmlsuc
+    });
+    function xmlerr(){ alert(_xmlErrMsg);};
+    function xmlsuc(xml){
+        $(xml).find("img").each(getGalleryList);
+        setGalleryList();
+        closeLoadingModal();
+    };
+    function getGalleryList(){
+        var data = {};
+        data["src"] = $(this).find("src").text();
+        data["title"] = $(this).find("title").text();
+        textData.push(data);
+    }
+    function setGalleryList(){
+        var str = "<ul>";
+        textData.forEach(
+            function (dat){
+                str += "<li><a class=\"images\" href=\"" + dat["src"] + "\" title=\"" + dat["title"] + "\"><img src=\"" + dat["src"] + "\" alt=\"\"></a></li>";
+            }
+        );
+        str += "</ul>";
+        $("div#gallery").html(str);
+        $(".images").colorbox({rel:'images', slideshow:false});
+    }
+}
+
+/**
+ * link
+ */
 function getLinkList(){
     var textData = [];
     $.ajax({

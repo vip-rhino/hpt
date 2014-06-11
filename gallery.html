@@ -18,6 +18,7 @@
         <title>rhino. - gallery -</title>
     </head>
     <body>
+        <div id="loading-modal" class="loading"></div>
         <div class="navbar navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container-fluid">
@@ -42,19 +43,6 @@
 
         <div class="container-fluid">
             <div id="gallery">
-                <ul>
-                    <li><a class="images" href="img/gallery/1.png" title="1.pngを表示"><img src="img/gallery/1.png" alt=""></a></li>
-                    <li><a class="images" href="img/gallery/2.png" title="2.pngを表示"><img src="img/gallery/2.png" alt=""></a></li>
-                    <li><a class="images" href="img/gallery/3.png" title="3.pngを表示"><img src="img/gallery/3.png" alt=""></a></li>
-                    <li><a class="images" href="img/gallery/4.png" title="4.pngを表示"><img src="img/gallery/4.png" alt=""></a></li>
-                    <li><a class="images" href="img/gallery/5.png" title="5.pngを表示"><img src="img/gallery/5.png" alt=""></a></li>
-                    <li><a class="images" href="img/gallery/6.png" title="6.pngを表示"><img src="img/gallery/6.png" alt=""></a></li>
-                    <li><a class="images" href="img/gallery/7.png" title="7.pngを表示"><img src="img/gallery/7.png" alt=""></a></li>
-                    <li><a class="images" href="img/gallery/8.png" title="8.pngを表示"><img src="img/gallery/8.png" alt=""></a></li>
-                    <li><a class="images" href="img/gallery/9.png" title="9.pngを表示"><img src="img/gallery/9.png" alt=""></a></li>
-                    <li><a class="images" href="img/gallery/10.png" title="10.pngを表示"><img src="img/gallery/10.png" alt=""></a></li>
-                    <li><a class="images" href="img/gallery/11.png" title="11.pngを表示"><img src="img/gallery/11.png" alt=""></a></li>
-                </ul>
             </div>
             <p>jQuery plugin - <a href="http://www.jacklmoore.com/colorbox/" target="_blank">Colorbox</a> -</p>
             <p>Photograph - <a href="http://www.ashinari.com/" target="_blank">足成</a> -</p>
@@ -66,9 +54,7 @@
         <script src="js/xml-handling.js"></script>
         <script src="js/jquery.colorbox.js"></script>
         <script>
-                $(document).ready(function(){
-                        $(".images").colorbox({rel:'images', slideshow:false});
-                });
+            window.onload=getGalleryList;
         </script>
     </body>
 </html>
