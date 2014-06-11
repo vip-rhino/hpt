@@ -1,14 +1,7 @@
 /**
- * HP Template 
- * ver@1.1.0
+ * hpt
  * Author@rhino<http://welkom.web.fc2.com/><vip.rhino@gmail.com>
  **/
-
-■更新履歴
-ver   | 内容
---------------------------------------------------------------------------------
-1.0.0 | 新規公開
-1.1.0 | gallery機能追加、一部リライト
 
 ■ライセンス
 Apache License, Version 2.0
