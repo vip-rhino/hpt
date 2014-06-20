@@ -38,7 +38,7 @@ function closeLoadingModal() {
  */
 function getIndex(){
     $.ajax({
-        url:"dat/basic/index.xml",
+        url:"dat/basic/index.xml?rand=" + Math.random(),
         type:"GET",
         dataType:"xml",
         timeout:2000,
@@ -76,7 +76,7 @@ function getIndex(){
  */
 function getAbout(){
     $.ajax({
-        url:"dat/basic/about.xml",
+        url:"dat/basic/about.xml?rand=" + Math.random(),
         type:"GET",
         dataType:"xml",
         timeout:2000,
@@ -109,7 +109,7 @@ function getAbout(){
 function getTextList(fileName){
     var textData = [];
     $.ajax({
-        url:"dat/" + fileName + ".xml",
+        url:"dat/" + fileName + ".xml?rand=" + Math.random(),
         type:"GET",
         dataType:"xml",
         timeout:2000,
@@ -167,7 +167,7 @@ function getText(){
         form[pair[0]] = pair[1];
     }
     $.ajax({
-        url:"dat/" + form["ym"] + ".xml",
+        url:"dat/" + form["ym"] + ".xml?rand=" + Math.random(),
         type:"GET",
         dataType:"xml",
         timeout:2000,
@@ -195,7 +195,7 @@ function getText(){
 function getGalleryList(){
     var textData = [];
     $.ajax({
-        url:"dat/basic/gallery.xml",
+        url:"dat/basic/gallery.xml?rand=" + Math.random(),
         type:"GET",
         dataType:"xml",
         timeout:2000,
@@ -233,7 +233,7 @@ function getGalleryList(){
 function getLinkList(){
     var textData = [];
     $.ajax({
-        url:"dat/basic/link.xml",
+        url:"dat/basic/link.xml?rand=" + Math.random(),
         type:"GET",
         dataType:"xml",
         timeout:2000,

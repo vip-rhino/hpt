@@ -12,8 +12,5 @@ Apache License, Version 2.0
   Colorbox<http://www.jacklmoore.com/colorbox/>
 ・改変再配布ご自由にどうぞ。ライセンスはApache License, Version 2.0を引き継いで下さい。
 
-■使い方
-別ファイルhow_use.txtを参照下さい。
-
 
 2014/06/10 rhino.
